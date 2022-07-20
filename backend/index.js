@@ -8,8 +8,8 @@ mongoose()
   .then(() => {
     const app = express();
     const server = http.createServer(app).listen(config.SERVER.PORT, () => {
-      console.log(`Http SERVER is running at port ${config.SERVER.PORT}`);
-      console.log(`Please visit http://127.0.0.1: ${config.SERVER.PORT}`);
+      console.log(`Http SERVER is running at port${config.SERVER.PORT}`);
+      console.log(`Please visit http://127.0.0.1:${config.SERVER.PORT}`);
     });
   })
   .catch((err) => {

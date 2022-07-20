@@ -1,4 +1,0 @@
-export const AUTH_SIGNUP = "AUTH_SIGNUP";
-export const AUTH_LOGIN = "AUTH_LOGIN";
-export const AUTH_PROFILE = "AUTH_PROFILE";
-export const GET_PAYMENT_HISTORY = "GET_PAYMENT_HISTORY";
